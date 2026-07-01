@@ -1,34 +1,35 @@
-# AXI Protocol using Verilog
+# AXI Protocol using SystemVerilog
 
 ## Overview
 
-This project implements the AMBA AXI protocol using Verilog HDL. AXI is a high-performance, high-bandwidth protocol widely used in modern SoC designs.
+This project implements the AMBA AXI protocol using SystemVerilog, focusing on modular design and verification-friendly architecture.
 
 ---
 
 ## Features
 
-- Write Address Channel
-- Write Data Channel
-- Write Response Channel
-- Read Address Channel
-- Read Data Channel
+- Modular Design
+- Interface-Based Connections
+- Read & Write Transactions
 - VALID/READY Handshake
+- Protocol Compliance
 
 ---
 
 ## Technologies Used
 
-- Verilog HDL
+- SystemVerilog
 - ModelSim
+- QuestaSim
 
 ---
 
 ## Folder Structure
 
 ```
-AXI-using-Verilog/
+AXI-using-SystemVerilog/
 │── rtl/
+│── interface/
 │── tb/
 │── simulation/
 │── README.md
@@ -39,28 +40,32 @@ AXI-using-Verilog/
 ## Verification
 
 - Functional Simulation
-- Handshake Validation
-- Protocol Compliance
+- Waveform Analysis
+- Transaction Validation
 
 ---
 
 ## Applications
 
-- SoC Design
-- FPGA Systems
-- Processor Communication
-- Memory Interfaces
+- ASIC Design
+- SoC Verification
+- FPGA Development
 
 ---
 
 ## Future Enhancements
 
-- Burst Transactions
-- Multiple Outstanding Transactions
-- QoS Support
+- UVM Testbench
+- Functional Coverage
+- Assertions (SVA)
+- Scoreboard
+- Monitor
+- Driver
+- Coverage Collection
 
 ---
 
 ## Author
 
 **Chandini Gudala**
+Design Verification Engineer | VLSI Enthusiast
